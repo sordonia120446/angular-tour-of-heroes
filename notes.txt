@@ -1,0 +1,14 @@
+Notes on Angular 2.0 Tour of Heroes Guide:  
+
+Language (scripts) = Typescript (type-safe JS)
+
+-Our Tour of Heroes uses the double curly braces of interpolation (a kind of one-way data binding) to display the application title and properties of a Hero object.
+-We wrote a multi-line template using ES2015’s template strings to make our template readable.
+-We can both display and change the hero’s name after adding a two-way data binding to the <input> element using the built-in ngModel directive.
+-The ngModel directive also propagates changes to every other binding of the hero.name.
+
+
+The (*) prefix to ngFor indicates that the <li> element and its children constitute a master template.
+
+
+
