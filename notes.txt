@@ -12,3 +12,12 @@ The (*) prefix to ngFor indicates that the <li> element and its children constit
 
 When there is no selectedHero, the ngIf directive removes the hero detail HTML from the DOM. There will be no hero detail elements and no bindings to worry about.
 
+Naming conventions
+We like to identify at a glance which classes are components and which files contain components.
+
+Notice that we have an AppComponent in a file named app.component.ts and our new HeroDetailComponent is in a file named hero-detail.component.ts.
+
+All of our component names end in "Component". All of our component file names end in ".component".
+
+We spell our file names in lower dash case (AKA kebab-case) so we don't worry about case sensitivity on the server or in source control.
+
