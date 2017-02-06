@@ -10,5 +10,5 @@ Language (scripts) = Typescript (type-safe JS)
 
 The (*) prefix to ngFor indicates that the <li> element and its children constitute a master template.
 
-
+When there is no selectedHero, the ngIf directive removes the hero detail HTML from the DOM. There will be no hero detail elements and no bindings to worry about.
 
